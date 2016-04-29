@@ -7,5 +7,5 @@
  */
 
 function task(a) {
-
+  return a * a;
 }

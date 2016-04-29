@@ -6,5 +6,5 @@
  */
 
 function task(a, b, c) {
-
+  return Math.max.apply(Math, [a, b, c]);
 }
