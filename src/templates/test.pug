@@ -1,0 +1,13 @@
+extends layout
+
+block styles
+  link(rel='stylesheet' href='/assets/vendor/qunitjs/qunit/qunit.css')
+
+block main
+  #qunit
+  #qunit-fixture
+
+block scripts
+  script(src='/assets/vendor/qunitjs/qunit/qunit.js')
+  script(src='/tasks/' + taskName + '/index.js')
+  script(src='/tasks/' + taskName + '/tests.js')
